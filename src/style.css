@@ -13,17 +13,21 @@ body > * {
 }
 header {
   background: cyan;
+  grid-area: hd;
 }
 header > h1 {
   margin: 0;
 }
 nav {
   background: magenta;
+  grid-area: nv;
 }
 main {
   background: yellow;
+  grid-area: mn;
 }
 footer {
   background: black;
   color: white;
+  grid-area: ft;
 }

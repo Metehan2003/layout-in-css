@@ -6,10 +6,48 @@
     <title>Basic Layout 2</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
+      body {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-column-gap: 6px;
+        grid-row-gap: 25px;
+        grid-template-areas:
+          "hd"
+          "nv"
+          "mn"
+          "ft";
+      }
+      /* header {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6; */
+      /* } */
+      /* main {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+      footer {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+      }
+
+      nav {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+      } */
+
       /* Doe hier jouw ding! */
     </style>
   </head>
-  <body id="basic-layout-2">
+  <body id="basic-layout-1">
     <header><h1>Basic Layout 2</h1></header>
     <nav><a href="../index.html">Terug naar het overzicht</a></nav>
     <main></main>

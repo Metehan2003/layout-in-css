@@ -6,10 +6,22 @@
     <title>Basic Layout 3</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
+      body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-column-gap: 6px;
+        grid-row-gap: 25px;
+        grid-template-areas:
+          "mn mn"
+          "ft ft"
+          "hd nv";
+      }
+
       /* Doe hier jouw ding! */
     </style>
   </head>
-  <body id="basic-layout-3">
+  <body id="basic-layout-1">
     <header><h1>Basic Layout 3</h1></header>
     <nav><a href="../index.html">Terug naar het overzicht</a></nav>
     <main></main>

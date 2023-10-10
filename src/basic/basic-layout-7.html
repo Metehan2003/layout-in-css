@@ -6,6 +6,18 @@
     <title>Basic Layout 7</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
+      body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-column-gap: 6px;
+        grid-row-gap: 25px;
+        grid-template-areas:
+          "nv hd"
+          "nv mn"
+          "nv ft";
+      }
+
       /* Doe hier jouw ding! */
     </style>
   </head>
